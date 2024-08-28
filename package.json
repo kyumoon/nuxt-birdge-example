@@ -1,0 +1,21 @@
+{
+  "name": "bridge-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt2",
+    "build": "nuxt2 build",
+    "start": "nuxt2 start",
+    "generate": "nuxt2 generate"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "nuxt": "^2.17.3",
+    "vue": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "^3.3.1",
+    "@nuxt/types": "^2.17.3",
+    "nuxi": "^3.13.0"
+  }
+}
