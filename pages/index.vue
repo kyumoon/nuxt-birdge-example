@@ -1,11 +1,15 @@
 <template>
-  <Tutorial/>
+  <Tutorial />
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
+import { ofetch } from "ofetch";
 
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default defineComponent({
+  name: "IndexPage",
+  mounted() {
+    ofetch("/")
+  },
+});
 </script>
